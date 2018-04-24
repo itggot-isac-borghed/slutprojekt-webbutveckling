@@ -1,16 +1,17 @@
 .menu {
-    width: 40vw;
-    height: 0px;
+    width: 0px;
+    height: 100vh;
     background-color: gray;
     position: absolute;
-    -webkit-transition:height 200ms ease-in;
-    -moz-transition:height 200ms ease-in;
-    -o-transition:height 200ms ease-in;
-    transition:height 200ms ease-in;
+    -webkit-transition:width 100ms ease-in;
+    -moz-transition:width 100ms ease-in;
+    -o-transition:width 100ms ease-in;
+    transition:width 100ms ease-in;
 }
 
 .menu > a, .menu > i.material_icons{
     display: none;
+    
 }
 
 .menu.show > a, .menu > i.material_icons{
@@ -18,9 +19,9 @@
 }
 
 .menu.show {
-    height: 90vh;
-    -webkit-transition:height 200ms ease-in;
-    -moz-transition:height 200ms ease-in;
-    -o-transition:height 200ms ease-in;
-    transition:height 200ms ease-in;
+    width: 60vw;
+    -webkit-transition:width 100ms ease-in;
+    -moz-transition:width 100ms ease-in;
+    -o-transition:width 100ms ease-in;
+    transition:width 100ms ease-in;
 }

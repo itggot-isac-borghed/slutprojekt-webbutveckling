@@ -1,12 +1,20 @@
+header {
+  height: 5vh;
+  background-color: aqua; }
+
+footer {
+  height: 5vh;
+  background-color: aqua; }
+
 .menu {
-  width: 40vw;
-  height: 0px;
+  width: 0px;
+  height: 100vh;
   background-color: gray;
   position: absolute;
-  -webkit-transition: height 200ms ease-in;
-  -moz-transition: height 200ms ease-in;
-  -o-transition: height 200ms ease-in;
-  transition: height 200ms ease-in; }
+  -webkit-transition: width 100ms ease-in;
+  -moz-transition: width 100ms ease-in;
+  -o-transition: width 100ms ease-in;
+  transition: width 100ms ease-in; }
 
 .menu > a, .menu > i.material_icons {
   display: none; }
@@ -15,8 +23,35 @@
   display: block; }
 
 .menu.show {
+  width: 60vw;
+  -webkit-transition: width 100ms ease-in;
+  -moz-transition: width 100ms ease-in;
+  -o-transition: width 100ms ease-in;
+  transition: width 100ms ease-in; }
+
+main.index {
   height: 90vh;
-  -webkit-transition: height 200ms ease-in;
-  -moz-transition: height 200ms ease-in;
-  -o-transition: height 200ms ease-in;
-  transition: height 200ms ease-in; }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(8, 1fr); }
+
+main.index > button {
+  grid-row: 8/9;
+  grid-column: 2/3; }
+
+@media only screen and (min-device-width: 1025px) {
+  main.index {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr); }
+
+  main.index > button {
+    grid-row: 3/4;
+    grid-column: 4/5; } }
+@media only screen and (min-device-width: 740px) {
+  main.index {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr); }
+
+  main.index > button {
+    grid-row: 4/5;
+    grid-column: 3/4; } }
