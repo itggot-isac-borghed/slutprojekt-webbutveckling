@@ -29,6 +29,9 @@ footer {
   -o-transition: width 100ms ease-in;
   transition: width 100ms ease-in; }
 
+@media only screen and (min-device-width: 740px) {
+  .menu.show {
+    width: 40vw; } }
 main.index {
   height: 90vh;
   display: grid;
