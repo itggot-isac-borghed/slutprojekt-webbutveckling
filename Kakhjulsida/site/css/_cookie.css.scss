@@ -1,0 +1,42 @@
+main.cookie {
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+}
+
+div.appelpajbil {
+    grid-template-rows: 1/2;
+    background-image: url("../img/Appelpajbil.png");
+    background-size: cover;
+    height: 50vh;
+
+}
+
+div.blabarsmuffinsbil {
+    grid-template-rows: 1/2;
+    background-image: url("../img/Blabarsmuffinsbil.png");
+    background-size: cover;
+    height: 50vh;
+
+}
+
+main.cookie > article {
+    grid-template-rows: 2/3;
+}
+
+
+@media only screen and (min-device-width: 1025px) {
+    main.cookie {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    div.appelpajbil {
+        grid-template-columns: 1/2;
+    }
+
+    main.ccokie > article {
+        grid-template-rows: 2/3;
+        grid-template-columns: 2/3;
+    }
+}
