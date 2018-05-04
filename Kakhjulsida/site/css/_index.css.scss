@@ -11,6 +11,7 @@ div.galleri {
     display: grid;
     grid-template-columns: inherit;
     grid-template-rows: repeat(6, auto);
+    justify-items: center;
 }
 
 .img1 {

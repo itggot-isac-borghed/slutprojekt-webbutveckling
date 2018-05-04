@@ -21,6 +21,14 @@ div.blabarsmuffinsbil {
 
 }
 
+div.tartabilbil {
+    grid-template-rows: 1/2;
+    background-image: url("../img/Tartabilbil.png");
+    background-size: cover;
+    height: 50vh;
+
+}
+
 main.cookie > article {
     grid-template-rows: 2/3;
 }
