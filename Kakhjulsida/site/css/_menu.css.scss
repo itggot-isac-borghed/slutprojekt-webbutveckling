@@ -9,12 +9,20 @@
     transition:width 100ms ease-in;
 }
 
-.menu > a, .menu > i.material_icons{
+.menu > a {
     display: none;
     
 }
 
-.menu.show > a, .menu > i.material_icons{
+.menu.show > a {
+    display: block;
+}
+
+.menu > i {
+    display: none;
+}
+
+.menu.show > i {
     display: block;
 }
 
