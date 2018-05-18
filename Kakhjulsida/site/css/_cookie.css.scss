@@ -7,25 +7,25 @@ main.cookie {
 
 div.appelpajbil {
     grid-template-rows: 1/2;
-    background-image: url("../img/Appelpajbil.png");
+    background-image: url("../img/Appelpajbilmobil.png");
     background-size: cover;
-    height: 50vh;
+    height: 132px;
 
 }
 
 div.blabarsmuffinsbil {
     grid-template-rows: 1/2;
-    background-image: url("../img/Blabarsmuffinsbil.png");
+    background-image: url("../img/Blabarsmuffinsbilmobil.png");
     background-size: cover;
-    height: 50vh;
+    height: 132px;
 
 }
 
 div.tartabilbil {
     grid-template-rows: 1/2;
-    background-image: url("../img/Tartabilbil.png");
+    background-image: url("../img/Tartabilbilmobil.png");
     background-size: cover;
-    height: 50vh;
+    height: 132px;
 
 }
 
@@ -40,7 +40,19 @@ main.cookie > article {
     }
 
     div.appelpajbil {
-        grid-template-columns: 1/2;
+        background-image: url("../img/Appelpajbil.png");
+        height: 50vh;
+    }
+
+    div.blabarsmuffinsbil {
+        background-image: url("../img/Blabarsmuffinsbil.png");
+        height: 50vh;
+
+    }
+
+    div.tartabilbil {
+        background-image: url("../img/Tartabilbil.png");
+        height: 50vh;
     }
 
     main.ccokie > article {
