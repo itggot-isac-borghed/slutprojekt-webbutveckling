@@ -194,7 +194,8 @@ main.cookie > article {
 
 @media only screen and (min-device-width: 1025px) {
   main.cookie {
-    grid-template-columns: repeat(2, 1fr); }
+    grid-template-columns: repeat(2, 1fr);
+    height: 90vh; }
 
   div.appelpajbil {
     background-image: url("../img/Appelpajbil.png");
