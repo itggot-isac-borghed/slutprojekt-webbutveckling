@@ -9,12 +9,12 @@
     transition:width 100ms ease-in;
 }
 
-.menu > a {
+.menu > ul {
     display: none;
-    
+    font-size: 20px;
 }
 
-.menu.show > a {
+.menu.show > ul {
     display: block;
 }
 

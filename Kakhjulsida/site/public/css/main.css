@@ -19,10 +19,11 @@ a.account {
   -o-transition: width 100ms ease-in;
   transition: width 100ms ease-in; }
 
-.menu > a {
-  display: none; }
+.menu > ul {
+  display: none;
+  font-size: 20px; }
 
-.menu.show > a {
+.menu.show > ul {
   display: block; }
 
 .menu > i {
