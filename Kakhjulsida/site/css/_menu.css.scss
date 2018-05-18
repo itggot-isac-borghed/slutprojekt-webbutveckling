@@ -11,7 +11,7 @@
 
 .menu > ul {
     display: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .menu.show > ul {
@@ -36,6 +36,6 @@
 
 @media only screen and (min-device-width: 740px) {
     .menu.show {
-        width: 40vw;
+        width: 20vw;
     }
 }

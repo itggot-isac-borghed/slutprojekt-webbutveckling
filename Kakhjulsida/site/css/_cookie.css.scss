@@ -5,6 +5,10 @@ main.cookie {
     grid-template-rows: repeat(2, auto);
 }
 
+main.cookie > h1 {
+    text-decoration: underline black;
+}
+
 div.appelpajbil {
     grid-template-rows: 1/2;
     background-image: url("../img/Appelpajbilmobil.png");

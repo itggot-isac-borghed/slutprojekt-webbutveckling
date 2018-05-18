@@ -1,3 +1,6 @@
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
 header {
   height: 5vh;
   background-color: aqua; }
@@ -21,7 +24,7 @@ a.account {
 
 .menu > ul {
   display: none;
-  font-size: 20px; }
+  font-size: 18px; }
 
 .menu.show > ul {
   display: block; }
@@ -41,7 +44,7 @@ a.account {
 
 @media only screen and (min-device-width: 740px) {
   .menu.show {
-    width: 40vw; } }
+    width: 20vw; } }
 main.index {
   height: auto;
   display: grid;
@@ -171,6 +174,9 @@ main.cookie {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(2, auto); }
+
+main.cookie > h1 {
+  text-decoration: underline black; }
 
 div.appelpajbil {
   grid-template-rows: 1/2;
