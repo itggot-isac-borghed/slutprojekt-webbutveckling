@@ -1,8 +1,15 @@
 main.index {
+    width: 90vw;
     height: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(8, 1fr);
+}
+
+main.index > h1 {
+    grid-column: span 2;
+    text-decoration: underline;
+    text-align: center;
 }
 
 div.galleri {
@@ -97,6 +104,10 @@ span {
         grid-template-rows: repeat(5, auto);
     }
 
+    main.index > h1 {
+        grid-column: span 4;
+    }
+
     main.index > button {
         grid-row: 5/6;
         grid-column: 4/5;
@@ -119,6 +130,10 @@ span {
     main.index {
         grid-template-columns: repeat(3, auto);
         grid-template-rows: repeat(6, auto);
+    }
+
+    main.index > h1 {
+        grid-column: span 3;
     }
 
     main.index > button {

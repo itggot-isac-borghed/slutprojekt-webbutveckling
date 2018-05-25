@@ -2,10 +2,14 @@ main.login {
     height: 90vh;
 }
 
-main.login > i.material-icons {
+div.login > i.material-icons {
     width: 100vw;
     text-align: center;
     font-size: 150px;
+}
+
+div.login {
+    background-color: white;
 }
 
 input {
@@ -17,7 +21,7 @@ input {
     margin-bottom: 30px;
 }
 
-main.login > button {
+div.login > button {
     font-size: 25px;
     width: 80vw;
     display: block;
@@ -26,10 +30,21 @@ main.login > button {
     border-radius: 20px;
 }
 
-main.login > a{
+div.login > a{
     width: auto;
     text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 0.2s;
 }
+
+div.login > a:hover {
+    font-size: 24px;
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+
 
 @media only screen and (min-device-width: 1025px) {
     main.login {
@@ -38,28 +53,38 @@ main.login > a{
         grid-template-rows: repeat(4, auto);
     }
 
-    main.login > i.material-icons {
+    div.login {
+        grid-column: 2/4;
+        grid-row: span 4;
+        background-color: lightgray;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: inherit;
+    }
+
+
+    div.login > i.material-icons {
         width: auto;
-        grid-column: 3/4;
+        grid-column: 2/3;
         grid-row: 1/3;
     }
 
     input {
         width: auto;
-        grid-column: 2/3;
+        grid-column: 1/2;
         grid-row: span 1;
         height: 30px;
     }
 
-    main.login > button {
+    div.login > button {
         width: auto;
-        grid-column: 2/3;
+        grid-column: 1/2;
         grid-row: 3/4;
         height: 40px;
     }
 
-    main.login > a {
-        grid-column: 2/4;
+    div.login > a {
+        grid-column: 1/3;
         grid-row: 4/5;
     }
 }

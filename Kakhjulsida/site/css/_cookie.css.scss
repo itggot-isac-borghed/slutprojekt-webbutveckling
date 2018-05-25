@@ -5,8 +5,8 @@ main.cookie {
     grid-template-rows: repeat(2, auto);
 }
 
-main.cookie > h1 {
-    text-decoration: underline black;
+main.cookie > article > h1 {
+    text-decoration: underline;
 }
 
 div.appelpajbil {

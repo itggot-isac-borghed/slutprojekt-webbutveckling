@@ -1,15 +1,21 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: none;
+    height: 90vh;
 }
 
 header {
     height: 5vh;
     background-color: aqua;
+    margin: none;
+    width: 100vw;
 }
 
 footer {
     height: 5vh;
     background-color: aqua;
+    margin: none;
+    width: 100vw;
 }
 
 a.account {

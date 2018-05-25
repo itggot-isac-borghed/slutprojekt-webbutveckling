@@ -3,15 +3,14 @@
     height: 100vh;
     background-color: gray;
     position: absolute;
-    -webkit-transition:width 100ms ease-in;
-    -moz-transition:width 100ms ease-in;
-    -o-transition:width 100ms ease-in;
-    transition:width 100ms ease-in;
+    -webkit-transition:width 50ms ease-in;
+    -moz-transition:width 50ms ease-in;
+    -o-transition:width 50ms ease-in;
+    transition:width 50ms ease-in;
 }
 
 .menu > ul {
-    display: none;
-    font-size: 18px;
+    display: none; 
 }
 
 .menu.show > ul {
@@ -26,12 +25,24 @@
     display: block;
 }
 
+.link:hover {
+    font-size: 24px;
+    transition: 0.2s;
+    text-decoration: underline;
+}
+
+.link {
+    font-size: 18px;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
 .menu.show {
     width: 60vw;
-    -webkit-transition:width 100ms ease-in;
-    -moz-transition:width 100ms ease-in;
-    -o-transition:width 100ms ease-in;
-    transition:width 100ms ease-in;
+    -webkit-transition:width 50ms ease-in;
+    -moz-transition:width 50ms ease-in;
+    -o-transition:width 50ms ease-in;
+    transition:width 50ms ease-in;
 }
 
 @media only screen and (min-device-width: 740px) {
